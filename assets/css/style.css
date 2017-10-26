@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+
+#movieInput2 {
+	color:#000000;
+} 
+
+html,
+body {
+  font: 18px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #FFFFFF;
+  background-image: url("http://i.imgur.com/hNOzoGs.jpg");
+  height: 100%;
+  align-content:center;
+}
+
+h2 {
+	padding:20px;
+	font-size: 30px;
+}
+
+#gif {
+	display: grid;
+	width: 70%;
+}
+
+.gif-item {
+	padding: 5px;
+}
+
+form {
+  padding: 0px;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 50%;
+    color:#black;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+button,
+input[type="submit"] {
+  background: #444444;
+  color: #white;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #bbb;
+}
+
+button.active {
+  background: #313131;
+}
+
+img {
+  vertical-align: middle;
+display: grid;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.push {
+	height: 4em;
+  text-align: center;
+}
+
+#movieButtons {
+    display: list-item;
+    align-items: center;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+#movies {
+    display: inline;
+    align-content: center;
+}
+
+#addmovie {
+    display: inline;
+    align-content: center;
+    padding-top: 4;
+}
+
+@media screen{
+}
