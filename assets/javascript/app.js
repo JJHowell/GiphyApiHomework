@@ -35,7 +35,7 @@ $(document).on('click','.movieButton', function(){
      .done(function(response) {
          var results = response.data;
 
-		//Sets the rating for giphy.
+		//Sets the rating for giphy. 
          for(var i=0; i < results.length; i++){
              var movieDiv = $('<div class="movie-item">');
              var rating = results[i].rating;
@@ -72,7 +72,6 @@ $(document).on('click', '.movieImage', function(){
 });
 
 //adds new movie by user
-
 //This part of the code doesn't work. :/ SHAME. SHAME. SHAME. SHAME. SHAME. 
  
 $('#addmovie').on('click', function(){
@@ -85,6 +84,5 @@ $('#addmovie').on('click', function(){
 	populateButtons(movies,'movieButton','#movieButtons');
 	
     return false;
+
 });
-
-
