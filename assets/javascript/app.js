@@ -20,7 +20,6 @@ function populateButtons(arrayToUse, classToAdd, areaToAddTo){
         a.text(arrayToUse[i]);
         $(areaToAddTo).append(a);
     }
-
 }
 
 $(document).on('click','.movieButton', function(){
@@ -72,7 +71,8 @@ $(document).on('click', '.movieImage', function(){
 });
 
 //adds new movie by user
-//This part of the code doesn't work. :/ SHAME. SHAME. SHAME. SHAME. SHAME. 
+//This part of the code doesn't work. :/ SHAME. SHAME. SHAME. SHAME. SHAME.
+//Just kidding it works now. Yay.
  
 $('#addmovie').on('click', function(){
     var newmovie = $('input').eq(0).val();
@@ -82,7 +82,7 @@ $('#addmovie').on('click', function(){
     }
 
 	populateButtons(movies,'movieButton','#movieButtons');
-	
+
     return false;
 
 });
